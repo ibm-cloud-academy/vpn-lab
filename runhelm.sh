@@ -2,7 +2,7 @@
 
 helm install ibm-charts-public/strongswan -n strongswan \
   --set validate=simple \
-  --set loadBalancerIP=167.212.121.2 \
+  --set loadBalancerIP=169.63.238.34 \
   --set ipsec.auto=add \
   --set local.subnet="172.21.0.0/16\,172.30.0.0/16" \
   --set local.id=ibmcloudus \
